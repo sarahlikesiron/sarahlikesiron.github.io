@@ -244,12 +244,19 @@ i {
     height: auto;
     padding-bottom: 8em;
     text-align: center;
+    background-color: #5A5A5A;
+}
+#triag {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #5A5A5A;
+    border-right: 100px solid transparent;
 }
 .proj, .proj p, .proj a {
     background-color: transparent;
 }
 #projects h2 {
-    color: #6E9E69;
+    color: #F9F9F9;
     position: relative;
     text-align: center;
     font-size: 36pt;
@@ -261,23 +268,19 @@ i {
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 0.5em;
-    display: inline-block;
 }
 .proj img {
     width: 100%;
     border-radius: 20px;
-    border: 4px solid #6E9E69;
 }
 .desc {
     background-color: transparent;
-    border-radius: 0 0 20px 20px;
     position: relative;
     top: 12em;
-    text-align: center;
 }
 .desc a {
     text-decoration: none;
-    color: #F9F9F9;
+    color: #5A5A5A;
     font-size: 32pt;
     font-weight: bold;
     transition: 1s;
@@ -288,11 +291,8 @@ i {
     color: #6E9E69;
     z-index: 1;
 }
-.proj:hover img {
-    border: 4px solid #4A6D47;
-}
 .proj .desc p {
-    color: #F9F9F9;
+    color: #5A5A5a;
     margin-left: 2em;
     font-size: 18pt;
     font-style: italic;
