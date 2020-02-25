@@ -18,6 +18,23 @@ footer {
     left: 0;
     width: 100%;
 }
+.backLink {
+    text-decoration: none;
+    color: #5A5A5A;
+    background-color: transparent;
+    transition: 1s;
+    font-size: 24pt;
+    position: relative;
+    z-index: 1;
+    top: 12em;
+    left: 8em;
+}
+.backLink:hover {
+    color: #6E9E69;
+}
+.resumed .backLink {
+    top: 1em;
+}
 nav {
     background-color: #6E9E69;
     top: 0;
@@ -303,4 +320,97 @@ i {
     font-size: 24pt;
     font-style: italic;
     z-index: 1;
+}
+
+/* start of individual project page */
+.projPage {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topImg img {
+    width: 98vw;
+    position: relative;
+}
+.objective h3, .process h3, .finalPro h3, .overall h3 {
+    color: #6E9E69;
+    font-size: 28pt;
+}
+.objective h4, .process h4, .finalPro h4, .overall h4 {
+    color: #5A5A5A;
+    font-size: 20pt;
+    margin: 0.5em;
+    font-weight: normal;
+}
+.objective p, .process p, .finalPro p, .overall p {
+    color: #5A5A5A;
+    font-size: 18pt;
+    margin: 1em;
+    font-weight: lighter;
+}
+.objective, .process, .finalPro, .overall {
+    margin-bottom: 3em;
+}
+.objective {
+    margin-top: 3em;
+}
+.overall {
+    padding-bottom: 15em;
+    margin-bottom: 0;
+}
+
+/* resume webpage part */
+.resumed {
+    background-color: #F9F9F9;
+    width: 70vw;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px #858585;
+    border: 1px solid red;
+}
+#header, #allBody {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-bottom: 2em;
+}
+.left {
+    width: 65%;
+}
+.right {
+    width: 35%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.resumed ul {
+    list-style: none;
+}
+.resumed ul li {
+    font-size: 14pt;
+    color: #5A5A5A;
+}
+.left h1 {
+    color: #6E9E69;
+    font-size: 48pt;
+    margin-left: 0.5em;
+}
+.left h2 {
+    color: #5A5A5A;
+    font-size: 24pt;
+    margin-left: 1.5em;
+}
+#move {
+    position: relative;
+    top: -2em;
+    left: 0em;
+}
+#lSection {
+    width: 30%;
+    margin-left: 2.5em;
+}
+#rSection {
+    width: 55%;
+    margin-right: 2em;
 }
