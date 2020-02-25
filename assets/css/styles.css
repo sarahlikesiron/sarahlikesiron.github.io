@@ -8,7 +8,7 @@ body {
     position: relative;
 }
 footer {
-    background-color: #5A5A5A;
+    background-color: #6E9E69;
     color: #F9F9F9;
     text-align: center;
     padding-top: 0.5em;
@@ -19,14 +19,14 @@ footer {
     width: 100%;
 }
 nav {
-    background-color: #5A5A5A;
+    background-color: #6E9E69;
     top: 0;
     width: 100%;
     position: fixed;
     z-index: 100;
 }
 nav a {
-    background-color: #5A5A5A;
+    background-color: #6E9E69;
     color: #F9F9F9;
     text-decoration: none;
     padding: 1.2em;
@@ -249,8 +249,10 @@ i {
 #triag {
     width: 0;
     height: 0;
+    position: relative;
+    bottom: 6.25em;
     border-bottom: 100px solid #5A5A5A;
-    border-right: 100px solid transparent;
+    border-right: 98.5vw solid transparent;
 }
 .proj, .proj p, .proj a {
     background-color: transparent;
@@ -264,10 +266,9 @@ i {
     z-index: 1;
 }
 .proj {
-    width: 30vw;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 0.5em;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 .proj img {
     width: 100%;
@@ -276,15 +277,20 @@ i {
 .desc {
     background-color: transparent;
     position: relative;
-    top: 12em;
+    width: 37em;
+    top: 23em;
+    left: 2em;
+    text-align: left;
 }
 .desc a {
     text-decoration: none;
     color: #5A5A5A;
-    font-size: 32pt;
+    font-size: 36pt;
     font-weight: bold;
     transition: 1s;
-    padding-bottom: 10em;
+    padding-bottom: 5em;
+    padding-top: 3em;
+    padding-right: 20em;
     z-index: 1;
 }
 .proj:hover .desc a {
@@ -294,7 +300,7 @@ i {
 .proj .desc p {
     color: #5A5A5a;
     margin-left: 2em;
-    font-size: 18pt;
+    font-size: 24pt;
     font-style: italic;
     z-index: 1;
 }
