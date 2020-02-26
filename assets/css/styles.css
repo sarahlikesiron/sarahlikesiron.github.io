@@ -50,11 +50,10 @@ nav a {
     display: inline-block;
     font-size: 14pt;
 }
-#topBtn {
+#button {
     background-color: rgba(110, 158, 105, 0.6);
     color: #F9F9F9;
     z-index: 99;
-    display: none;
     border: none;
     position: fixed;
     right: 30px;
@@ -66,6 +65,9 @@ nav a {
     font-size: 30pt;
     text-align: center;
     border-radius: 10px;
+}
+#button:hover {
+    background-color: #6E9E69;
 }
 #top {
     min-height: 101vh;
@@ -379,12 +381,13 @@ i {
 /* resume webpage part */
 .resumed {
     background-color: #F9F9F9;
-    width: 70vw;
+    width: 50vw;
+    min-height: 100vh;
     margin-top: 5em;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 5px 5px 5px #858585;
-    border: 1px solid red;
+    border: 1px solid #5A5A5A;
 }
 #header, #allBody {
     width: 100%;
@@ -422,6 +425,14 @@ i {
     position: relative;
     top: -2em;
     left: 0em;
+}
+#allBody h3 {
+    color: #6E9E69;
+    font-size: 18pt;
+}
+#allBody p {
+    color: #5A5A5A;
+    font-size: 12pt;
 }
 #lSection {
     width: 30%;
