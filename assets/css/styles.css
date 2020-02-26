@@ -50,6 +50,23 @@ nav a {
     display: inline-block;
     font-size: 14pt;
 }
+#topBtn {
+    background-color: rgba(110, 158, 105, 0.6);
+    color: #F9F9F9;
+    z-index: 99;
+    display: none;
+    border: none;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    outline: none;
+    cursor: pointer;
+    width: 1.25em;
+    height: 1.25em;
+    font-size: 30pt;
+    text-align: center;
+    border-radius: 10px;
+}
 #top {
     min-height: 101vh;
     display: flex;
@@ -126,11 +143,11 @@ hr {
     font-size: 26pt;
     margin-bottom: 1em;
 }
-#about h3 {
+#about h3, #resumes h3 {
     font-size: 18pt;
     margin-bottom: 1em;
 }
-#about h2, #about h3 {
+#about h2, #about h3, #resumes h3 {
     color: #6E9E69;
 }
 #contact {
