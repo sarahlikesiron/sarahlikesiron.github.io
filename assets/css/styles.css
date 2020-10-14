@@ -23,7 +23,6 @@ footer {
     text-decoration: none;
     color: #5A5A5A;
     background-color: transparent;
-    transition: 1s;
     font-size: 24pt;
     position: relative;
     z-index: 1;
@@ -101,6 +100,8 @@ nav a {
     box-shadow: -1px -1px #858585;
     background-color: #4A6D47;
     cursor: pointer;
+    position: relative;
+    left: 3%;
 }
 .circle:hover + p {
     color: black;
@@ -156,7 +157,7 @@ hr {
 #contact {
     margin-bottom: 5em;
 }
-.icons a {
+.icon a {
     text-decoration: none;
     color: #5A5A5A;
     font-size: 14pt;
@@ -204,7 +205,14 @@ i {
     position: relative;
     top: 0.21em;
 }
-.icon:hover i {
+.icon i:hover {
+    color: #6E9E69;
+    transform: rotateZ(10deg) scale(1.1);
+}
+.icon i:hover a {
+    transform: scale(1.1);
+}
+.icon a:hover i {
     color: #6E9E69;
     transform: rotateZ(10deg) scale(1.1);
 }
@@ -217,7 +225,7 @@ i {
     width: 25em;
     height: 32.5em;
     background-color: #F9F9F9;
-    border: 0.5pt solid #5A5A5A;
+    border: 1pt solid #5A5A5A;
     border-radius: 20px;
     box-shadow: 5px 5px #5A5A5A;
 }
@@ -322,7 +330,7 @@ i {
 .desc a {
     text-decoration: none;
     color: #5A5A5A;
-    font-size: 36pt;
+    font-size: 30pt;
     font-weight: bold;
     transition: 1s;
     padding-bottom: 5em;
@@ -336,8 +344,7 @@ i {
 }
 .proj .desc p {
     color: #5A5A5a;
-    margin-left: 2em;
-    font-size: 24pt;
+    font-size: 20pt;
     font-style: italic;
     z-index: 1;
 }
