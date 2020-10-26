@@ -179,7 +179,7 @@ hr {
     position: absolute;
     z-index: 1;
     bottom: 70%;
-    left: 75%;
+    left: 85%;
     margin-left:-60px;
     opacity: 0;
     transition: opacity 0.5s;
@@ -187,14 +187,14 @@ hr {
 .icon .icontext::after {
     content: "";
     position: absolute;
-    top: 100%;
+    top: 90%;
     left: 15%;
     margin-left: -5px;
-    border-width: 5px;
+    border-width: 10px;
     border-style: solid;
     border-color: #6E9E69 transparent transparent transparent;
 }
-.icon:hover .icontext {
+.icon a:hover + .icontext {
     visibility: visible;
     opacity: 1;
 }
@@ -287,7 +287,7 @@ i {
 
 #projects {
     height: auto;
-    padding-bottom: 8em;
+    padding-bottom: 4em;
     text-align: center;
     background-color: #5A5A5A;
 }
@@ -298,6 +298,29 @@ i {
     bottom: 6.25em;
     border-bottom: 100px solid #5A5A5A;
     border-right: 98.5vw solid transparent;
+}
+#ddpList {
+    background-color: transparent;
+    margin-top: 4em;
+}
+#ddpList li {
+    display: inline-block;
+    margin: 1em;
+    font-size: 24pt;
+    font-weight: bolder;
+    color: #F9F9F9;
+    background-color: inherit;
+    transition: 0.5s all;
+}
+#ddpList li:hover {
+    cursor: pointer;
+    color: #6E9E69;
+}
+.active {
+    text-decoration: underline;
+}
+.design, .development, .programming {
+    background-color: #5A5A5A;
 }
 .proj, .proj p, .proj a {
     background-color: transparent;
@@ -322,8 +345,8 @@ i {
 .desc {
     background-color: transparent;
     position: relative;
-    width: 37em;
-    top: 23em;
+    width: 30em;
+    top: 22em;
     left: 2em;
     text-align: left;
 }
@@ -332,7 +355,7 @@ i {
     color: #5A5A5A;
     font-size: 30pt;
     font-weight: bold;
-    transition: 1s;
+    transition: 0.5s all;
     padding-bottom: 5em;
     padding-top: 3em;
     padding-right: 20em;
